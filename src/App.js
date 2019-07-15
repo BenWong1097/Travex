@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import { Header } from './Header.js';
+import { Header } from './Components/Header.js';
 import { PageHome } from './PageHome.js';
 import { PageNewTrip } from './PageNewTrip.js'
 import { PageItinerary } from './PageItinerary';

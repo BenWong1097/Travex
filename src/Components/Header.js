@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import orbLogo from './travex_logo_orb.svg';
+import orbLogo from '../travex_logo_orb.svg';
 
 export function Header(props){
   console.log('Login');

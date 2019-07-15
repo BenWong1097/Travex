@@ -57,7 +57,7 @@ export function PageExperiential(props){
                     </div>
                 </div>
 
-                <Link to="/explore" className="m-auto space-top-2">
+                <Link to="/explore" className="m-autoc space-top-2">
                     <div className="pretty-btn">
                         Explore +
                     </div>
@@ -66,7 +66,7 @@ export function PageExperiential(props){
 
             <div className="col flex flex-c space-top">
                 <img className="logo" src={ colorLogo } alt="travex logo"/>
-                <Link to="/expense" className="m-auto space-top-2">
+                <Link to="/expense" className="m-autoc space-top-2">
                     <div className="pretty-btn">
                         Set Trip
                     </div>

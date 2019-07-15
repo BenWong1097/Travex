@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Circle } from './Circle.js';
+import { Circle } from './Components/Circle.js';
 
 import googleIcon from './google-icon.png';
 

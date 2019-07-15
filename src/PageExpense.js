@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import colorLogo from './travex_logo_color.svg';
 
+import { ComponentFilterListContainer } from './Components/ComponentFilterListContainer.js';
+
 export function PageExpense(){
   return (
     <div className="body flex">
@@ -10,6 +12,11 @@ export function PageExpense(){
         <div className="title-block">
           <p className="title-att">Expense Manager</p>
         </div>
+
+        <ComponentFilterListContainer
+          filterList={["Company ($700)", "Company (10%, limit $50)",
+          "Self"]} active={1}
+          title="Pay Personal via:"/>
 
         <div className="expense-list">
           <div className="flex expense-li no-padding no-border">
@@ -21,7 +28,7 @@ export function PageExpense(){
           </div>
           <div className="flex expense-li no-padding expense-personal">
             <div className="clmn-5">
-              <p class="green">$80</p>  
+              <p className="green">$80</p>  
             </div>
             <div className="clmn-5"><p>Khalid</p></div>
             <div className="clmn-5"><p>10/26</p></div>
@@ -31,7 +38,7 @@ export function PageExpense(){
 
           <div className="flex expense-li no-padding expense-personal">
             <div className="clmn-5">
-              <p class="green">$70</p>  
+              <p className="green">$70</p>  
             </div>
             <div className="clmn-5"><p>HONNE</p></div>
             <div className="clmn-5"><p>10/27</p></div>
@@ -41,7 +48,7 @@ export function PageExpense(){
 
           <div className="flex expense-li no-padding expense-company">
             <div className="clmn-5">
-              <p class="green">$120</p>  
+              <p className="green">$120</p>  
             </div>
             <div className="clmn-5"><p>FLIGHT</p></div>
             <div className="clmn-5"><p></p></div>
@@ -51,7 +58,7 @@ export function PageExpense(){
 
           <div className="flex expense-li no-padding expense-company">
             <div className="clmn-5">
-              <p class="green">$170</p>  
+              <p className="green">$170</p>  
             </div>
             <div className="clmn-5"><p>STAY</p></div>
             <div className="clmn-5"><p></p></div>
@@ -63,7 +70,7 @@ export function PageExpense(){
 
       <div className="col flex flex-c space-top">
         <img className="logo" src={ colorLogo } alt="travex logo"/>
-        <Link to="/home" className="m-auto space-top-2">
+        <Link to="/home" className="m-autoc space-top-2">
           <div className="pretty-btn">
             Set Trip
           </div>
