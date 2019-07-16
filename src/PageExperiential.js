@@ -1,32 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import colorLogo from './travex_logo_color.svg';
+import colorLogo from './travex_logo_color2.png';
 
 export function PageExperiential(props){
     return (
         <div className="body flex">
             <div className="col flex flex-c space-top">
                 <div className="title-block">
-                    <p className="title-att">Experience Las Vegas, NV</p>
+                    <p className="title-att">Experience Rio de Janeiro</p>
                 </div>
 
                 <div className="itinerary-list">
                     <div className="flex itinerary-li no-padding">
                         <div>
                             <p className="grey">CONCERT</p>
-                            <p>Khalid</p>
+                            <p>Rodrigo Lampreia</p>
                         </div>
                         <div>
                             <p className="txt-sm">10/26 7PM</p>
-                            <p className="green">$80</p>
+                            <p className="green">$30</p>
                         </div>
                     </div>
 
                     <div className="flex itinerary-li no-padding">
                         <div>
                             <p className="grey">FOOD</p>
-                            <p>Carson Kitchen</p>
+                            <p>Vizinho Gastrobar</p>
                         </div>
                         <div>
                             <p className="txt-sm">10/27 ~6PM</p>
@@ -37,22 +37,22 @@ export function PageExperiential(props){
                     <div className="flex itinerary-li no-padding">
                         <div>
                             <p className="grey">CONCERT</p>
-                            <p>Ozzy Osbourne</p>
+                            <p>Arthus Fochi</p>
                         </div>
                         <div>
                             <p className="txt-sm">10/27 8PM</p>
-                            <p className="green">$70</p>
+                            <p className="green">$25</p>
                         </div>
                     </div>
 
                     <div className="flex itinerary-li no-padding">
                         <div>
                             <p className="grey">FOOD</p>
-                            <p className="">Top of the World</p>
+                            <p className="">Pabu Izakaya</p>
                         </div>
                         <div>
                             <p className="txt-sm">10/28 ~12PM</p>
-                            <p className="green">$$$$</p>
+                            <p className="green">$$</p>
                         </div>
                     </div>
                 </div>

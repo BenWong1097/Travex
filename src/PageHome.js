@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import colorLogo from './travex_logo_color.svg';
+import colorLogo from './travex_logo_color2.png';
 
 export function PageHome(props){
   return(
@@ -9,10 +9,10 @@ export function PageHome(props){
       <div className="col flex flex-c space-top">
         <img className="logo" src={colorLogo} alt="travex logo"/>
         <div className="desc">
-          <p>Brandon Kiek</p>
+          <p>Diego Marquez</p>
           <hr/>
-          <p>Apple</p>
-          <p>Software Developer</p>
+          <p>Company ABC</p>
+          <p>Consultant</p>
           <p>Employee: 13942</p>
         </div>
       </div>

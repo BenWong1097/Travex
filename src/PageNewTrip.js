@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import colorLogo from './travex_logo_color.svg';
+import colorLogo from './travex_logo_color2.png';
 
 export function PageNewTrip(props){
   return(
@@ -14,7 +14,8 @@ export function PageNewTrip(props){
           <div className="input-container flex flex-ce">
             <form>
               <label>
-                <input type="text" name="origin" placeholder="Airport (e.g. DFW)"/>
+                {/* <input type="text" name="origin" placeholder="Airport (e.g. DFW)"/> */}
+                <input type="text" name="origin" placeholder="DFW"/>
               </label>
             </form>
           </div>
@@ -26,7 +27,8 @@ export function PageNewTrip(props){
           <div className="input-container flex flex-ce">
             <form>
               <label>
-                <input type="text" name="origin" placeholder="Airport (e.g. DFW)"/>
+                {/* <input type="text" name="origin" placeholder="Airport (e.g. DFW)"/> */}
+                <input type="text" name="origin" placeholder="GIG"/>
               </label>
             </form>
           </div>
@@ -38,7 +40,8 @@ export function PageNewTrip(props){
           <div className="input-container flex flex-ce">
             <form>
               <label>
-                <input type="text" name="origin" placeholder="DD/MM/YY"/>
+                {/* <input type="text" name="origin" placeholder="DD/MM/YY"/> */}
+                <input type="text" name="origin" placeholder="26/10/2019"/>
               </label>
             </form>
           </div>
@@ -50,7 +53,8 @@ export function PageNewTrip(props){
           <div className="input-container flex flex-ce">
             <form>
               <label>
-                <input type="text" name="origin" placeholder="DD/MM/YY"/>
+                {/* <input type="text" name="origin" placeholder="DD/MM/YY"/> */}
+                <input type="text" name="origin" placeholder="28/10/2019"/>
               </label>
             </form>
           </div>

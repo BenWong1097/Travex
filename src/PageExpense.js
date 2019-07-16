@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import colorLogo from './travex_logo_color.svg';
+import colorLogo from './travex_logo_color2.png';
 
 import { ComponentFilterListContainer } from './Components/ComponentFilterListContainer.js';
 
@@ -28,9 +28,9 @@ export function PageExpense(){
           </div>
           <div className="flex expense-li no-padding expense-personal">
             <div className="clmn-5">
-              <p className="green">$80</p>  
+              <p className="green">$30</p>  
             </div>
-            <div className="clmn-5"><p>Khalid</p></div>
+            <div className="clmn-5"><p>Rodrigo Lampreia</p></div>
             <div className="clmn-5"><p>10/26</p></div>
             <div className="clmn-5"><p>7PM</p></div>
             <div className="clmn-5"><p>x1</p></div>
@@ -38,9 +38,9 @@ export function PageExpense(){
 
           <div className="flex expense-li no-padding expense-personal">
             <div className="clmn-5">
-              <p className="green">$70</p>  
+              <p className="green">$25</p>  
             </div>
-            <div className="clmn-5"><p>HONNE</p></div>
+            <div className="clmn-5"><p>Arthus Fochi</p></div>
             <div className="clmn-5"><p>10/27</p></div>
             <div className="clmn-5"><p>7PM</p></div>
             <div className="clmn-5"><p>x1</p></div>

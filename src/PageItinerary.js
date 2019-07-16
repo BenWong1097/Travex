@@ -19,7 +19,7 @@ export function PageItinerary(props){
           <div className="flex itinerary-li">
             <div>
               <p className="grey">FLIGHT</p>
-              <p>DFW → LAS</p>
+              <p>DFW → GIG</p>
             </div>
             <div>
               <p className="txt-sm">10/26 11AM</p>
@@ -30,7 +30,7 @@ export function PageItinerary(props){
           <div className="flex itinerary-li">
             <div>
               <p className="grey">RIDE</p>
-              <p>LAS → Best...</p>
+              <p>GIG → Ever...</p>
             </div>
             <div>
               <p className="txt-sm">&nbsp;</p>
@@ -41,7 +41,7 @@ export function PageItinerary(props){
           <div className="flex itinerary-li">
             <div>
               <p className="grey">STAY</p>
-              <p>Best Weste...</p>
+              <p>Everest Rio...</p>
             </div>
             <div>
               <p className="txt-sm">10/26 - 10/28</p>
@@ -52,7 +52,7 @@ export function PageItinerary(props){
           <div className="flex itinerary-li">
             <div>
               <p className="grey">RIDE</p>
-              <p>Best... → LAS</p>
+              <p>Ever... → GIG</p>
             </div>
             <div>
               <p className="txt-sm">&nbsp;</p>
@@ -63,7 +63,7 @@ export function PageItinerary(props){
           <div className="flex itinerary-li">
             <div>
               <p className="grey">FLIGHT</p>
-              <p>LAS → DFW</p>
+              <p>GIG → DFW</p>
             </div>
             <div>
               <p className="txt-sm">10/28 9AM</p>
@@ -81,12 +81,12 @@ export function PageItinerary(props){
 
         <div className="options-list">
           <div className="options-li">
-            Best Western McCarran Inn
+            Everest Rio Hotel
             <span className="options-li-b green-bg white">$$</span>
           </div>
 
           <div className="options-li">
-            Holiday Inn Express Las Vegas - South
+            Grand Hyatt Rio de Janeiro
             <span className="options-li-b green-bg white">$$</span>
           </div>
 
@@ -96,12 +96,12 @@ export function PageItinerary(props){
           </div>
 
           <div className="options-li">
-            Golden Nugget Las Vegas Hotel
+            JW Mariott Hotel Rio de Janeiro
             <span className="options-li-b yellow-bg white">$$$</span>
           </div>
 
           <div className="options-li">
-            Mandalay Bay Resort and Casino
+            Janeiro Hotel
             <span className="options-li-b yellow-bg white">$$$</span>
           </div>
         </div>
