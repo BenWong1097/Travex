@@ -14,7 +14,7 @@ export function PageExplore(props){
         </div>
 
         <ComponentFilterListContainer
-          filterList={["Cart", "Concert", "Food", "Tour", "Etc"]} active={1}
+          filterList={["Cart", "Concert", "Food", "Tour", "Theatre", "Etc"]} active={1}
           list={[
             {title: 'CONCERT', subtitle: 'Rodrigo Lampreia', time: '10/26 7PM', price: 30, filter:1},
             {title: 'CONCERT', subtitle: 'Melim', time: '10/26 9PM', price: 20, filter:1},
@@ -28,10 +28,14 @@ export function PageExplore(props){
             {title: 'TOUR', subtitle: 'Night Club Tour', price: 35, filter:3},
             {title: 'TOUR', subtitle: 'Seven Magic M...', price: 20, filter:3},
             {title: 'TOUR', subtitle: 'Scoot City Tours', price: 70, filter:3},
-            {title: 'FESTIVAL', subtitle: 'Life is Beaut...', time: '10/27 2PM', price: 25, filter:4},
-            {title: 'PARTY', subtitle: 'Simp City', time: '10/26 10PM', price: 10, filter:4},
-            {title: 'SHOW', subtitle: 'Murray the Mag...', time: '10/26 7PM', price: 30, filter:4},
-            {title: 'FESTIVAL', subtitle: 'Food & Wine Fe...', time: '10/27 2PM', price: 25, filter:4},
+            {title: 'THEATRE', subtitle: 'Teatro Riachuelo', price: '$', filter:4},
+            {title: 'THEATRE', subtitle: 'SESC Copacabana', price: '$', filter:4},
+            {title: 'THEATRE', subtitle: 'Sala Cecilia Meireles', price: '$', filter:4},
+            {title: 'THEATRE', subtitle: 'Maison de France Theater', price: '$$', filter:4},
+            {title: 'FOOTBALL', subtitle: 'Corinthians X Flamengo', price: 25, filter:5},
+            {title: 'PARTY', subtitle: 'Simp City', time: '10/26 10PM', price: 10, filter:5},
+            {title: 'SHOW', subtitle: 'Murray the Mag...', time: '10/26 7PM', price: 30, filter:5},
+            {title: 'FESTIVAL', subtitle: 'Food & Wine Fe...', time: '10/27 2PM', price: 25, filter:5},
           ]}/>
       </div>
 

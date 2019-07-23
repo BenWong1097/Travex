@@ -40,7 +40,7 @@ export function PageExpense(){
             <div className="clmn-5">
               <p className="green">$25</p>  
             </div>
-            <div className="clmn-5"><p>Arthus Fochi</p></div>
+            <div className="clmn-5"><p>Corinth. X Flameng.</p></div>
             <div className="clmn-5"><p>10/27</p></div>
             <div className="clmn-5"><p>7PM</p></div>
             <div className="clmn-5"><p>x1</p></div>
