@@ -11,7 +11,7 @@ export function PageHome(props){
         <div className="desc">
           <p>Diego Marquez</p>
           <hr/>
-          <p>Company ABC</p>
+          <p>Apple</p>
           <p>Consultant</p>
           <p>Employee: 13942</p>
         </div>

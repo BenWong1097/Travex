@@ -9,6 +9,7 @@ import { PageExperiential } from './PageExperiential';
 import { PageExplore } from './PageExplore';
 import { PageExpense } from './PageExpense';
 import { PageLogin } from './PageLogin';
+import { PageDone } from './PageDone';
 
 import './App.css';
 
@@ -24,6 +25,7 @@ function App(props) {
         <Route path="/experiential" component={ PageExperiential } />
         <Route path="/explore" component={ PageExplore } />
         <Route path="/expense" component={ PageExpense } />
+        <Route path="/diego" component={ PageDone } />
       </BrowserRouter>
     </div>
   );

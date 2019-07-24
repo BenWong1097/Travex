@@ -70,7 +70,7 @@ export function PageExpense(){
 
       <div className="col flex flex-c space-top">
         <img className="logo" src={ colorLogo } alt="travex logo"/>
-        <Link to="/home" className="m-autoc space-top-2">
+        <Link to="/diego" className="m-autoc space-top-2">
           <div className="pretty-btn">
             Set Trip
           </div>
