@@ -10,7 +10,7 @@ export function PageLogin(props){
     <div>
       <div className="bigboye">
         Travex
-        <div className="loginboye">
+        <div className="loginboye loginboye-extra">
           <Link to="/home">
             <img src={googleIcon} alt="google login"/>
             Login

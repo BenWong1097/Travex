@@ -7,6 +7,7 @@
   font-family: 'Nunito', sans-serif;
   /* color: #000; */
 }
+
 .header{
   background: #E50000;
   color: #FFFFFF;
@@ -455,10 +456,89 @@ a:hover{
   box-shadow: 0px 0px 3px #DDD;
   border-radius: 10px;
   padding: 5px;
-  padding-right: 10px;
   font-size: 10pt;
 }
 .loginboye img{
   width: 25px;
   padding: 0 5px;
+}
+.loginboye-extra a{
+  padding-right: 10px;
+}
+
+
+span.fade-in-bot{
+  position: relative;
+  animation: fade-in-bot .3s ease-in-out;
+}
+
+/* svg */
+.hinv{
+  animation: fade-in-top 1.5s ease-in;
+}
+.svg-air1{
+  fill: #C78A90;
+}
+.svg-air2{
+  fill: #E59B99;
+}
+.svg-air3{
+  fill: #F7BEAB;
+}
+.svg-water{
+  fill: #8C7D91;
+}
+.svg-sand{
+  fill: #BD796B;
+}
+.svg-star{
+  fill: white;
+}
+.flicker1{
+  animation: flicker 1s 0s ease-in-out infinite;
+}
+.flicker2{
+  animation: flicker 2s .23s ease-in-out infinite;
+}
+.flicker3{
+  animation: flicker 3s .55s ease-in-out infinite;
+}
+.bob{
+  animation: bob 5s ease-in-out infinite;
+}
+
+/* Keyframes */
+@keyframes fade-in-bot{
+  from{
+    opacity: 0;
+    top: -30px;
+  }
+  80%{
+    opacity: 0.5;
+  }
+  to{
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes fade-in-top{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes bob{
+  from, to{
+    transform: translateY(10px);
+  }
+  40%, 60%{
+    transform: translateY(0px);
+  }
+}
+@keyframes flicker{
+  50%{
+    opacity: .8;
+  }
 }
