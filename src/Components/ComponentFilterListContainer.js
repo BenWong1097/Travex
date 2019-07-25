@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { ComponentFilterList } from './ComponentFilterList.js';
+import { ComponentListItem } from './ComponentListItem.js';
 
 export class ComponentFilterListContainer extends React.Component{
   constructor(props){
@@ -22,16 +23,10 @@ export class ComponentFilterListContainer extends React.Component{
       scarlet = this.props.list.map((v, i) => {
         if(v.filter !== this.state.active)
           return null;
-        return (<div className="flex itinerary-li no-padding">
-          <div>
-            <p className="grey">{v.title}</p>
-            <p>{v.subtitle}</p>
-          </div>
-          <div>
-            <p className="txt-sm">{v.time}</p>
-            <p className="green">${v.price}</p>
-          </div>
-        </div>);
+        return (
+          <ComponentListItem 
+            title={v.title} subtitle={v.subtitle} time={v.time} price={v.price} key={'li_'+i}/>
+        );
       })
     }
     return (

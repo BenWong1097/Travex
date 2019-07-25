@@ -15,7 +15,7 @@ export function PageExpense(){
 
         <ComponentFilterListContainer
           filterList={["Company ($700)", "Company (10%, limit $50)",
-          "Self"]} active={1}
+          "Self"]} active={2}
           title="Pay Personal via:"/>
 
         <div className="expense-list">

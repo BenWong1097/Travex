@@ -254,6 +254,7 @@
   height: 100%;
   left: 85%;
   top: 0;
+  transition: all 0.1s ease-in-out;
 }
 
 .itinerary-li{
@@ -261,6 +262,14 @@
 }
 .itinerary-li div:first-child{
   width: 190px;
+}
+
+.li-selectable{
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.li-selectable:hover{
+  box-shadow: #AAA 0 1px 2px;
 }
 
 .options-list{
@@ -406,6 +415,9 @@ a:hover{
   color: rgb(102, 192, 102);
 }
 .green-bg{
+  background: rgb(102, 192, 102);
+}
+.green-after:after{
   background: rgb(102, 192, 102);
 }
 .white{
